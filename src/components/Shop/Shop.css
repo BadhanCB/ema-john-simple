@@ -1,0 +1,16 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.products-container{
+    grid-column: 1 / 9;
+    border-right: 1px solid lightgrey;
+    padding: 0 20px;
+}
+.cart-container{
+    grid-column: 9 / -1;
+    padding: 0 20px;
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
