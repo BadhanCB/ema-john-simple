@@ -1,7 +1,35 @@
 .cart-title{
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .order-summery-icon{
     font-size: 30px;
+}
+.text-center{
+    text-align: center;
+}
+table{
+    border: none;
+    border-collapse: collapse;
+}
+table td{
+    padding-right: 15px;
+}
+table tr:nth-last-child(2) td{
+    padding-bottom: 7px;
+}
+table tr:nth-last-child(1) td{
+    padding: 7px;
+    background-color: lightgrey;
+}
+table tr:nth-last-child(1) td:nth-child(1){
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+table tr:nth-last-child(1) td:nth-child(2){
+    padding-left: 0;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
 }

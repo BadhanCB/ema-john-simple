@@ -6,7 +6,7 @@ import Cart from "../Cart/Cart";
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
-    const [cart, setCart] = useState([])
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch(fakedata)
